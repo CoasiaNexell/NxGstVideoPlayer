@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PlayListWindow</class>
+ <widget class="QDialog" name="PlayListWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(239, 235, 231);
+color: rgb(1,1,1);</string>
+  </property>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>90</y>
+     <width>981</width>
+     <height>491</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="batchSize">
+    <number>5</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnOk">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>21</y>
+     <width>60</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>60</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>Ok</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="diskListCombo">
+   <property name="geometry">
+    <rect>
+     <x>21</x>
+     <y>21</y>
+     <width>831</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>600</width>
+     <height>60</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnCancel">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>21</y>
+     <width>60</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>60</width>
+     <height>60</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
