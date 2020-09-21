@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Version=0.8.0
+Name=NxGstVideoPlayer
+Comment=GStreamer Video Player Application
+Icon=icon_gstvplayer.png
+TryExec=NxGstVideoPlayer
+Exec=NxGstVideoPlayer
